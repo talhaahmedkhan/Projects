@@ -1,0 +1,25 @@
+﻿@model WebApplication1.Areas.projects.Models.Project
+
+@{
+    ViewBag.Title = "ProjectsPartial";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h2>Projects</h2>
+    </div>
+</div>
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-6">
+                <img class="profile-img" src="@Url.Content(item.imageURL)" />
+            </div>
+            <div class="col-sm-6">
+                <h1>@Html.DisplayFor(modelItem => item.title)</h1>
+                <p>@Html.DisplayFor(modelItem => item.description)</p>
+            </div>
+        </div>
+    </div>
+}
