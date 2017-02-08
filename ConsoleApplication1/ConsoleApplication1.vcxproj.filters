@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lanedetect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lanedetect1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\lane-detection-master\lane-detection-master\LaneDetect.cpp">
+    <ClCompile Include="..\..\..\..\OpenCV-3.1.0\opencv\sources\samples\cpp\drawing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source1.cpp">
@@ -33,14 +27,14 @@
     <ClCompile Include="Source2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\lane-detection-master\lane-detection-master\linefinder.h">
+    <ClCompile Include="Source4.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Downloads\lane-detection-master\lane-detection-master\LaneDetection.avi" />
-    <None Include="..\..\..\..\Downloads\lane-detection-master\lane-detection-master\contours" />
+    </ClCompile>
+    <ClCompile Include="Source6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="houghP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
